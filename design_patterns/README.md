@@ -28,3 +28,4 @@ The following files are included in this project:
 | ---- | ----------- |
 |[0-factory.py](0-factory.py) | Extend existing factory registry to support a new vehicle type without modifying the core creation logic inside create |
 |[1-observer.py](1-observer.py) | Implement new observer and subscribe it to a running notification system, filtering it to recieve only specific event topics |
+|[2-decorator.py](2-decorator.py) | Add new decorator that extends a Beverage by wrapping it, composing correctly with existing decorators without modifying any existing class |
