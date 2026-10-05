@@ -31,6 +31,7 @@ class VehicleFactory:
     def create(self, kind):
         return self._registry[kind]()
 
+
 def main():
     factory = VehicleFactory()
     factory.register_kind("bus", Bus)
