@@ -1,8 +1,8 @@
 classDiagram
     class Library {
-        +add_book(book: Book)
-        +register_user(user: User)
-        +create_loan(user: User, book: Book) : Loan
+        +add_book()
+        +register_user()
+        +create_loan()
     }
 
     class Book {
@@ -19,8 +19,8 @@ classDiagram
     }
 
     class Loan {
-        +start_date: str
-        +end_date: str
+        +start_date
+        +end_date
         +close_loan()
     }
 
