@@ -26,4 +26,4 @@ The following files are included in this project:
 
 | File | Description |
 | ---- | ----------- |
-|[]() | |
+|[0-factory.py](0-factory.py) | Extend existing factory registry to support a new vehicle type without modifying the core creation logic inside create |
